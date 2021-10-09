@@ -1,24 +1,95 @@
+html {
+	scroll-behavior: smooth;
+}
 
-.col{
-    background-color: rgb(255, 255, 255);
+body {
+	background-color: rgb(10, 107, 39); /* cor de fundo*/
 }
-.container{
-    margin-top:20px;
-    border-radius: 15px;
-    background-color: white;
+
+.col {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 20px;
+	background-color: #fafafa;
 }
+
+
+.col h1 {
+	margin-top: 20px;
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.col2 {
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #fafafa;
+}
+
+.col2 div a {
+	width: 100%;
+}
+.col2 h1 {
+	margin-top: 20px;
+}
+
+.img-fluid {
+	margin-top: 60px;
+	margin-bottom: 50px;
+
+}
+
+img-fluid-2 {
+	margin-top: 20px;
+	margin-bottom: -30px;
+	border-radius: 50%;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.row div {
+	width: 100%;
+}
+
+.nav-link {
+	color: rgb(214, 214, 214);
+	padding-right: 100px;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+h1 {
+  font-size: 57px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
 
 li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-      
+  float: left;
+}
 
-
+li a {
+  display: block;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  padding: 29px 22px;
+  text-decoration: none;
+}
